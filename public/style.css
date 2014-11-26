@@ -1,0 +1,17 @@
+li {
+  list-style: none;
+  font-family: Optima, sans-serif;
+}
+
+h1 {
+  font-family: Hoefler Text,serif;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: Optima, sans-serif;
+}
+
+a:link {
+  color: slate grey;
+}

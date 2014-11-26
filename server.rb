@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'CSV'
+require 'pry'
 
 def data(filename)
   @data_file = []
