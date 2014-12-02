@@ -2,7 +2,7 @@ require 'pry'
 
 def get_booze(file)
   @list_of_drinks = []
-  initial_list = File.read(file).split(" ")
+  initial_list = File.read(file).split("\n")
   @list_of_drinks = initial_list.uniq!
 end
 
