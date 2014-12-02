@@ -1,0 +1,47 @@
+altbier
+amber ale
+barley wine
+berliner weisse
+bière de garde
+bitter
+blonde ale
+bock
+brown ale
+california common
+cream ale
+dortmunder export
+doppelbock
+dunkel
+dunkelweizen
+eisbock
+fruit lambic
+golden ale
+gose
+gueuze
+hefeweizen
+helles
+india pale ale
+kölsch
+lambic
+light ale
+maibock
+oktoberfestbier
+märzenbier
+old ale
+oud bruin
+pale ale
+pilsener
+pilsner
+pils
+porter
+red ale
+roggenbier
+saison
+scotch ale
+steam beer
+stout
+schwarzbier
+vienna lager
+witbier
+weissbier
+weizenbock

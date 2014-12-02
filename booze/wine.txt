@@ -1,0 +1,93 @@
+arneis
+catarratto
+fiano
+friulano
+garganega
+greco di tufo
+malvasia
+moscato
+nuragus
+passerina
+pigato
+pinot grigio
+ribolla gialla
+trebbiano
+verdicchio
+vermentino
+aglianico
+barbera
+corvina
+dolcetto
+montepulciano
+nebbiolo
+begroamaro
+nero d'avola
+primitivo
+sagratino
+sangiovese
+chianti
+merlot
+grenache
+ugni
+syrah
+carignan
+cabernet
+chardonnay
+gamay
+pinot
+sauvignon
+cinsaut
+melon de bourgogne
+semillon
+chenin
+mourvedre
+colombard
+muscat
+viognier
+riesling
+malbec
+sherry
+cava
+manzanilla
+amontillado
+oloroso
+pedro ximenez
+palo cortado
+burgundy
+claret
+chianti
+chablis
+madeira
+malaga
+marsala
+moselle
+port
+sauterne
+tokay
+shiraz
+mourvedre
+müller-thurgau
+spätburgunder
+dornfelder
+silvaner
+grauburgunder
+blauer portugieser
+weißburgunder
+kerner
+trollinger
+schwarzriesling
+regent
+bacchut
+lemberger
+scheurebe
+gutedel
+traminer
+gewürztraminer
+huzelrebe
+ortega
+faberrebe
+champagne
+prosecco
+sangria
+marsala
+vinsanto

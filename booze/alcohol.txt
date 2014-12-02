@@ -1,0 +1,377 @@
+beer
+ale
+barley wine
+rye beer
+kvass
+chica
+corn beer
+tesguino
+burukutu
+pito
+merisa
+bilibili
+wheat beer
+brem
+huangjiu
+choujiu
+ruou gao
+sake
+sonti
+makgeolli
+chungju
+tuak
+thwon
+millet beer
+tongba
+boza
+whiskey
+whisky
+shochu
+vodka
+korn
+bourbon
+moonshine
+maotai
+gaoliang
+baiju
+horilka
+weizenkorn
+aila
+rice baiju
+awamori
+soju
+wine
+cider
+apfelwein
+perry
+pear cider
+poiré
+plum wine
+tepache
+chuoi
+cauim
+urgwagwa
+mbege
+kasikisi
+gouqi jiu
+toddy
+ginger ale
+ginger beer
+ginger wine
+yangmei jiu
+brandy
+cognac
+vermouth
+armagnac
+branntwein
+pisco
+rakia
+singani
+arak
+törkölypálinka
+applejack
+apple brandy
+calvados
+poire williams
+pear brandy
+eau-de-vie
+pálinka
+krushova raika
+krushevitsa
+slivovitz
+tuica
+umeshu
+slivova raika
+kaisieva raika
+gin
+borovicka
+arrack
+lambanog
+raki
+ouzo
+pastis
+sambuca
+tsipouro
+tsikoudia
+grappa
+trester
+marc
+orujo
+zivania
+bagaco
+tescovina
+arak
+tiquira
+horilka
+akvavit
+poteen
+poitín
+tuzemak
+rum
+pinga
+cachaca
+aguardiente
+guaro
+gongo
+konyagi
+tequila
+mezcal
+raicilla
+mead
+liqueur
+arkhi
+cauim
+chicha
+kasiri
+nihamanchi
+nijimanche
+parakari
+sakura
+potato beer
+soju
+basi
+betsa-betsa
+pulque
+coyol wine
+tembo
+toddy
+tuak
+tej
+kumis
+kefir
+blaand
+kilju
+sima
+absinthe
+akvavit
+gin
+palinka
+pisco
+rum
+armagnac
+cognac
+schnapps
+obstwasser
+damassine
+himbeergeist
+kirsch
+williamine
+anesone
+anis
+anisette
+galliano
+herbsaint
+mastika
+liqueur
+pernod
+ricard
+amer picon
+byrrh
+campari
+cynar
+fernet branca
+gammel dansk
+lillet
+punt e mes
+suze
+creme de cacao
+creme de chocolate
+godiva liqueur
+vandermint
+bauchant
+kroatzbeere
+marie brizand
+cassis
+kirschenliqueur
+kirsch
+citronge
+cointreau
+curacao
+gran torres
+grand marnier
+limoncello
+midori
+sloe
+southern comfort
+triple sec
+tuaca
+chartreuse
+drambuie
+glayva
+goldwasser
+izarra
+jagermeister
+pimms
+silberwasser
+strega
+advocaat
+goldschlager
+kahlua
+kummel
+tia maria
+amaretto
+frangelico
+cordial
+altbier
+amber ale
+barley wine
+berliner weisse
+bière de garde
+bitter
+blonde ale
+bock
+brown ale
+california common
+cream ale
+dortmunder export
+doppelbock
+dunkel
+dunkelweizen
+eisbock
+fruit lambic
+golden ale
+gose
+gueuze
+hefeweizen
+helles
+india pale ale
+kölsch
+lambic
+light ale
+maibock
+oktoberfestbier
+märzenbier
+old ale
+oud bruin
+pale ale
+pilsener
+pilsner
+pils
+porter
+red ale
+roggenbier
+saison
+scotch ale
+steam beer
+stout
+schwarzbier
+vienna lager
+witbier
+weissbier
+weizenbock
+sazerac
+black and tan
+singapore sling
+mimosa
+gimlet
+ginn fizz
+gin and tonic
+gin sour
+lime rickey
+long island iced tea
+martini
+tom collins
+bacardi
+daiquiri
+pina colada
+rum swizzle
+mai-tai
+mojito
+bloody mary
+julep
+glogg
+spritzer
+punch
+arneis
+catarratto
+fiano
+friulano
+garganega
+greco di tufo
+malvasia
+moscato
+nuragus
+passerina
+pigato
+pinot grigio
+ribolla gialla
+trebbiano
+verdicchio
+vermentino
+aglianico
+barbera
+corvina
+dolcetto
+montepulciano
+nebbiolo
+begroamaro
+nero d'avola
+primitivo
+sagratino
+sangiovese
+chianti
+merlot
+grenache
+ugni
+syrah
+carignan
+cabernet
+chardonnay
+gamay
+pinot
+sauvignon
+cinsaut
+melon de bourgogne
+semillon
+chenin
+mourvedre
+colombard
+muscat
+viognier
+riesling
+malbec
+sherry
+cava
+manzanilla
+amontillado
+oloroso
+pedro ximenez
+palo cortado
+burgundy
+claret
+chianti
+chablis
+madeira
+malaga
+marsala
+moselle
+port
+sauterne
+tokay
+shiraz
+mourvedre
+müller-thurgau
+spätburgunder
+dornfelder
+silvaner
+grauburgunder
+blauer portugieser
+weißburgunder
+kerner
+trollinger
+schwarzriesling
+regent
+bacchut
+lemberger
+scheurebe
+gutedel
+traminer
+gewürztraminer
+huzelrebe
+ortega
+faberrebe
+champagne
+prosecco
+sangria
+marsala
+vinsanto
