@@ -4,6 +4,7 @@ barley
 brandy
 kvass
 chica
+scotch
 tesguino
 burukutu
 pito
@@ -39,7 +40,6 @@ soju
 wine
 cider
 apfelwein
-perry
 poiré
 tepache
 chuoi
@@ -303,7 +303,6 @@ madeira
 malaga
 marsala
 moselle
-port
 sauterne
 tokay
 shiraz
