@@ -1,6 +1,10 @@
 li {
   list-style: none;
   font-family: Optima, sans-serif;
+  margin-left: 0;
+  margin-right: 10%;
+  margin-top: .5em;
+  margin-bottom: .5em;
 }
 
 h1 {
@@ -8,7 +12,7 @@ h1 {
   font-size: 48px;
 }
 
-h2 {
+h2, h3 {
   font-family: Optima, sans-serif;
 }
 

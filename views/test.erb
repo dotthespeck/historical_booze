@@ -1,0 +1,11 @@
+<% get_booze('alcohol.txt') %>
+<% get_novel('Madame Bovary', 'Gustave Flaubert','bovary2.txt') %>
+<% find_booze %>
+
+<h2>"<%= @name %>" </h2>
+<h3>By <%= @author %></h3>
+<div>
+  <% @has_booze.each do |i| %>
+  <li><%= i %></li>
+</div>
+<% end %>

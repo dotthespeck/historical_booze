@@ -1,0 +1,28 @@
+<h1>Drinking the Classics</h1>
+
+<div>
+    <h2>Select author</h2>
+    <ul>
+      <% @data.each do |data| %>
+    <li><a href="drinks/<%= data[:id] %>"><%= data[:author] %></a></li>
+    <% end %>
+  </ul>
+</div>
+
+<div>
+  <h2>Select beverage</h2>
+  <ul>
+  <% @data.each do |data| %>
+  <li><a href="drinks/<%= data[:id] %>"><%= data[:drink] %></a></li>
+  <% end %>
+</ul>
+</div>
+
+<div>
+<h2>You are...</h2>
+<ul>
+  <% @data.each do |data| %>
+  <li><a href="drinks/<%= data[:id] %>"><%= data[:drinker] %></a></li>
+  <% end %>
+</ul>
+</div>

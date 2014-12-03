@@ -1,28 +1,14 @@
-<h1>Drinking the Classics</h1>
+<h1>Boozeoisie</h1>
 
-<div>
-    <h2>Select author</h2>
-    <ul>
-      <% @data.each do |data| %>
-    <li><a href="drinks/<%= data[:id] %>"><%= data[:author] %></a></li>
-    <% end %>
-  </ul>
-</div>
+<% get_booze('alcohol.txt') %>
+<% get_novel('Madame Bovary', 'Gustave Flaubert','bovary.txt') %>
+<% find_booze %>
 
+<h2>"<%= @name %>" </h2>
+<h3>By <%= @author %></h3>
 <div>
-  <h2>Select beverage</h2>
-  <ul>
-  <% @data.each do |data| %>
-  <li><a href="drinks/<%= data[:id] %>"><%= data[:drink] %></a></li>
-  <% end %>
-</ul>
+<% @has_booze.each do |i| %>
+<% binding.pry %>
+<li><%= i %></li>
 </div>
-
-<div>
-<h2>You are...</h2>
-<ul>
-  <% @data.each do |data| %>
-  <li><a href="drinks/<%= data[:id] %>"><%= data[:drinker] %></a></li>
-  <% end %>
-</ul>
-</div>
+<% end %>
