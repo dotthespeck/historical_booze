@@ -1,75 +1,53 @@
 require 'sinatra'
-require 'CSV'
+require 'sinatra/contrib'
 require 'pry'
 
 get '/home' do
 
-  def get_booze(file)
-    @list_of_drinks = []
-    initial_list = File.read(file).split("\n")
-    @list_of_drinks = initial_list.uniq!
-  end
-
-  def get_novel(name, author, file)
-    @name = name
-    @author = author
-    @sentences = []
-    original_text = File.read(file)
-    @sentences = original_text.split(/[.!?:]/)
-  end
-
-  def find_booze
-    @has_booze = []
-    @list_of_drinks.each do |booze|
-      @sentences.each do |i|
-        if i.downcase.include?(booze)
-          @has_booze << i
-        end
-      end
-    end
-  end
-
-  def print_booze
-    @has_booze.each do |i|
-      puts i
-    end
-  end
-
-  erb :index
+  erb :home
 end
 
-get "/test" do
+#novels
 
-  def get_booze(file)
-    @list_of_drinks = []
-    initial_list = File.read(file).split("\n")
-    @list_of_drinks = initial_list.uniq!
+  get '/novel/index' do
+
+    erb :'novel/index'
   end
 
-  def get_novel(name, author, file)
-    @name = name
-    @author = author
-    @sentences = []
-    original_text = File.read(file)
-    @sentences = original_text.split(/[.!?:]/)
+  get '/novel/:id' do
+
+    erb :'novel/id'
   end
 
-  def find_booze
-    @has_booze = []
-    @list_of_drinks.each do |booze|
-      @sentences.each do |i|
-        if i.downcase.include?(booze)
-          @has_booze << i
-        end
-      end
-    end
+
+#authors
+
+  get '/author/index' do
+
+    erb :'author/index'
   end
 
-  def print_booze
-    @has_booze.each do |i|
-      puts i
-    end
+  get '/author/:id' do
+
+    erb :'author/id'
   end
 
-erb :test
+
+#alcohol
+
+  get '/alcohol/index' do
+
+    erb :'alcohol/index'
+  end
+
+  get '/alcohol/:id' do
+
+    erb :'alcohol/id'
+  end
+
+#random
+
+get '/home/random' do
+
+erb :random
 end
