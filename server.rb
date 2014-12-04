@@ -1,8 +1,12 @@
 require 'sinatra'
 require 'sinatra/contrib'
 require 'pry'
+require_relative 'book'
 
 get '/home' do
+
+
+@bovary = Book.new("Madame Bovary", "Gustave Flaubert")
 
   erb :home
 end
@@ -10,6 +14,9 @@ end
 #novels
 
   get '/novel/index' do
+
+@bovary = Book.new("Madame Bovary", "Gustave Flaubert")
+@bovary.get_novel("bovary.txt")
 
     erb :'novel/index'
   end
