@@ -1,3 +1,6 @@
 <h1>Booze by (the) book</h1>
 
-<li><% @bovary.find_booze %></li>
+<% @bovary.find_booze %>
+<% @has_booze.each do |booze| %>
+<li><% booze %></li>
+<% end %>

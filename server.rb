@@ -5,9 +5,6 @@ require_relative 'book'
 
 get '/home' do
 
-
-@bovary = Book.new("Madame Bovary", "Gustave Flaubert")
-
   erb :home
 end
 
@@ -15,9 +12,8 @@ end
 
   get '/novel/index' do
 
-@bovary = Book.new("Madame Bovary", "Gustave Flaubert")
-@bovary.get_novel("bovary.txt")
-
+    @bovary = Book.new("Madame Bovary", "Gustave Flaubert", "bovary.txt")
+    
     erb :'novel/index'
   end
 
