@@ -6,7 +6,7 @@ class Book
     @author = author
     @file = File.read(file)
     @list_of_drinks = get_booze
-    @sentences = get_novel
+    @sentences = sentences
     @has_booze = find_booze
   end
 
@@ -16,9 +16,10 @@ class Book
     @list_of_drinks = initial_list
   end
 
-  def get_novel
+  def sentences
     @sentences = []
-    @sentences << @file.split(".")
+    file = @file.split(".")
+    @sentences = file
   end
 
   def find_booze
@@ -30,7 +31,9 @@ class Book
           end
         end
       end
-      @has_booze
+        @has_booze.each do |item|
+          print "#{item}"
+        end
   end
 
   # def print_booze
@@ -38,4 +41,5 @@ class Book
   #     puts "#{i}"
   #   end
   # end
+
 end

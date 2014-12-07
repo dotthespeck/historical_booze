@@ -1,6 +1,9 @@
+<% require_relative = 'book' %>
+
 <h1>Booze by (the) book</h1>
 
-<% @bovary.find_booze %>
-<% @has_booze.each do |booze| %>
-<li><% booze %></li>
-<% end %>
+<h3><%= @jeeves.title %></h3>
+
+<ul>
+  <li><%= @jeeves.find_booze %></li>
+</ul>

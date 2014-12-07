@@ -12,8 +12,8 @@ end
 
   get '/novel/index' do
 
-    @bovary = Book.new("Madame Bovary", "Gustave Flaubert", "bovary.txt")
-    
+    @jeeves = Book.new("My Man Jeeves", "P.G. Wodehouse", "mymanjeeves.txt")
+
     erb :'novel/index'
   end
 
