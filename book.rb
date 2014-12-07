@@ -8,6 +8,7 @@ class Book
     @list_of_drinks = get_booze
     @sentences = sentences
     @has_booze = find_booze
+    @not_an_array = print_booze
   end
 
   def get_booze
@@ -18,7 +19,7 @@ class Book
 
   def sentences
     @sentences = []
-    file = @file.split(".")
+    file = @file.split(/[.!?:]/)
     @sentences = file
   end
 
@@ -31,15 +32,11 @@ class Book
           end
         end
       end
-        @has_booze.each do |item|
-          print "#{item}"
-        end
+    @has_booze
   end
 
-  # def print_booze
-  #   @has_booze.each do |i|
-  #     puts "#{i}"
-  #   end
-  # end
+  def print_booze
+    puts @has_booze.join("\n")
+  end
 
 end

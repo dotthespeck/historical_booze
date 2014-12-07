@@ -1,1 +1,10 @@
-<h1>Is this thing on</h1>
+<% require_relative = 'Book' %>
+<% require_relative = 'Authors' %>
+
+<h1>Featured authors</h1>
+
+<% @authors.each do |author| %>
+<ul>
+<li><%= author %></li>
+<% end %>
+</ul>

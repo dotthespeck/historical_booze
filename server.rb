@@ -2,6 +2,14 @@ require 'sinatra'
 require 'sinatra/contrib'
 require 'pry'
 require_relative 'book'
+require_relative 'authors'
+
+@jeeves = Book.new("My Man Jeeves", "P.G. Wodehouse", "mymanjeeves.txt")
+@bovary = Book.new("Madame Bovary", "Gustave Flaubert", "bovary2.txt")
+@warnpeace1 = Book.new("War and Peace", "Leo Tolstoy", "warnpeace1.txt")
+@frankenstein = Book.new("Frankenstein", "Mary Shelley", "shelley_frankie.txt")
+
+binding.pry
 
 get '/home' do
 
@@ -11,8 +19,6 @@ end
 #novels
 
   get '/novel/index' do
-
-    @jeeves = Book.new("My Man Jeeves", "P.G. Wodehouse", "mymanjeeves.txt")
 
     erb :'novel/index'
   end
