@@ -9,6 +9,7 @@ class Book
     @sentences = sentences
     @has_booze = find_booze
     @not_an_array = print_booze
+    Authors.add_author(@author)
   end
 
   def get_booze

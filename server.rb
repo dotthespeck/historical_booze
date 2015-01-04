@@ -4,11 +4,47 @@ require 'pry'
 require_relative 'book'
 require_relative 'authors'
 
-@jeeves = Book.new("My Man Jeeves", "P.G. Wodehouse", "mymanjeeves.txt")
-@bovary = Book.new("Madame Bovary", "Gustave Flaubert", "bovary2.txt")
-@warnpeace1 = Book.new("War and Peace", "Leo Tolstoy", "warnpeace1.txt")
-@frankenstein = Book.new("Frankenstein", "Mary Shelley", "shelley_frankie.txt")
+# @jeeves = Book.new("My Man Jeeves", "P.G. Wodehouse", "mymanjeeves.txt")
+# @bovary = Book.new("Madame Bovary", "Gustave Flaubert", "bovary2.txt")
+# @warnpeace1 = Book.new("War and Peace", "Leo Tolstoy", "warnpeace1.txt")
+# @frankenstein = Book.new("Frankenstein", "Mary Shelley", "shelley_frankie.txt")
 
+def get_booze(file)
+  @list_of_drinks = []
+  initial_list = File.read(file).split("\n")
+  @list_of_drinks = initial_list.uniq!
+end
+
+def get_novel(name, author, file)
+  @name = name
+  @author = author
+  @sentences = []
+  original_text = File.read(file)
+  @sentences = original_text.split(/[.!?:-]/)
+end
+
+def find_booze
+  @has_booze = []
+  @list_of_drinks.each do |booze|
+    @sentences.each do |i|
+      if i.downcase.match?(booze)
+        @has_booze << i
+      end
+    end
+  end
+end
+
+
+def print_booze
+  @has_booze.each do |i|
+    puts i
+  end
+end
+
+get_booze('alcohol.txt')
+get_novel("The Importance of Being Ernest", "Oscar Wilde", "earnest.txt")
+find_booze
+print_booze
 binding.pry
 
 get '/home' do
@@ -16,9 +52,8 @@ get '/home' do
   erb :home
 end
 
-#novels
+get '/novel/index' do
 
-  get '/novel/index' do
 
     erb :'novel/index'
   end
@@ -29,20 +64,18 @@ end
   end
 
 
-#authors
-
   get '/author/index' do
+
 
     erb :'author/index'
   end
 
   get '/author/:id' do
 
+
     erb :'author/id'
   end
 
-
-#alcohol
 
   get '/alcohol/index' do
 
@@ -53,10 +86,3 @@ end
 
     erb :'alcohol/id'
   end
-
-#random
-
-get '/home/random' do
-
-erb :random
-end

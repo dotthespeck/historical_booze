@@ -1,14 +1,16 @@
 class Authors
 
   def initialize
-    @authors = list_of_authors
+    @authors = []
   end
 
-  def list_of_authors
-    @authors = []
-    book_info = Book.new(author, title, file)
-    author = book_info[0]
+  def self.add_author(author)
     @authors << author
     @authors.uniq!
   end
+
+  def self.all
+    @authors
+  end
+  
 end
