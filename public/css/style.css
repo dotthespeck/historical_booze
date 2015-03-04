@@ -1,0 +1,23 @@
+h1 {
+  font-family: Hoefler Text,serif;
+  font-size: 48px;
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+h2, h3 {
+  font-family: Optima, sans-serif;
+}
+
+a:link {
+  color: grey;
+}
+
+div {
+
+}
+
+.pic {
+  margin-left: 250px;
+  margin-right: 250px;
+}
